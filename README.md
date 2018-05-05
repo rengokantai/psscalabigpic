@@ -11,3 +11,11 @@ import scala.concurrent.ExecutionContext.Implicit.global
 fut.isCompleted
 fut.value
 ```
+
+
+```
+fut.onComplete({
+  case Success(result)=>println(result)
+  case Failure(e)=>println(e)
+})
+```
