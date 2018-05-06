@@ -1,7 +1,14 @@
 # psscalabigpic
 
-
-
+## 9. Collections
+### 4 Class Hierarchy Diagram
+```
+IndexedSeq,LinearSeq,SortedSet,BitSet,SortedMap
+```
+### 7 Map with Examples
+```
+weekDays.forEach(entry=>println(s"${entry._1}=>${entry._2}"))
+```
 ## 10. Cuncurrency
 ### 3 Future and ExecutionContext
 ```
